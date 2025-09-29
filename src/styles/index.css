@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Patrick+Hand&display=swap");
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .app-parcont {
     display: flex;
     flex-direction: column;
     width: 100%;
+    flex-wrap: wrap;
   }
-  .app-parcont div {
-    width: 100%;
-  }
+  .app-parcont ,.app-left-parcont ,.app-right-parcont {
+  width: 100%;
+}
+
 }
 
 body {

@@ -17,24 +17,24 @@
 .app-parcont {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: inherit;
-  height: 100%;
+  min-width: 100%;
+  justify-content: space-evenly;
   overflow: hidden;
-  gap: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.app-parcont,
+.app-left-parcont,
+.app-right-parcont {
+  height: 100vh;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .app-parcont .app-left-parcont {
-  height: inherit;
-  width: 50%;
   background-color: #87ceeb;
-  height: 100vh;
-  border-radius: 5px;
 }
 .app-parcont .app-right-parcont {
-  height: inherit;
-  width: 50%;
-  border-radius: 5px;
   background-color: #9dc183;
-  height: 100vh;
 }
