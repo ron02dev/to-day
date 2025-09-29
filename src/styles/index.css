@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Patrick+Hand&display=swap");
+
+@media (max-width: 800px) {
+  .app-parcont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .app-parcont div {
+    width: 100%;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+p {
+  font-family: var(--font-heading);
+}
+
+:root {
+  --font-heading: "Quicksand", sans-serif;
+  --font-body: "Lato", sans-serif;
+  --font-accent: "Patrick Hand", cursive;
+}
+#root {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffef7;
+  min-height: 100vh;
+  gap: 5px;
+}

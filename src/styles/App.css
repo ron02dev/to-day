@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-parcont {
+  background-color: #8b7355;
+  color: #ffffff;
+  height: 90px;
+  text-align: center;
+  align-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.app-parcont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: inherit;
+  height: 100%;
+  overflow: hidden;
+  gap: 5px;
+}
+
+.app-parcont .app-left-parcont {
+  height: inherit;
+  width: 50%;
+  background-color: #87ceeb;
+  height: 100vh;
+  border-radius: 5px;
+}
+.app-parcont .app-right-parcont {
+  height: inherit;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #9dc183;
+  height: 100vh;
+}
